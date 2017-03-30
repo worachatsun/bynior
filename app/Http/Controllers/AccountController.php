@@ -39,6 +39,6 @@ class AccountController extends Controller {
                         ->get();
       $this->account::where('uid', $questions[0]->uid)
            ->update(['item' => 1]);
-      return array_get($questions, '0');
+      return view('random', array_get($questions, '0'));
     }
 }
