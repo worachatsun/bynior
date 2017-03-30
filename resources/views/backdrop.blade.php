@@ -60,14 +60,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 8em;
   }
 
 
     </style>
   </head>
   <body>
-    <h1 id="headline" class="center" style="z-index:1000">{{ $uid }}</h1>
+    <a href="random"><button class="center" style="z-index:1000">random</button></a>
     <div id="particle-canvas" style="position: absolute;">
 
     </div>

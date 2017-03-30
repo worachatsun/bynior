@@ -12,6 +12,10 @@ class AccountController extends Controller {
       $this->account = new Account();
     }
 
+    public function backdrop(){
+      return view('backdrop');
+    }
+
 
     public function checkIn($id){
 
