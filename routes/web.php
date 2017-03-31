@@ -16,6 +16,6 @@ Route::get('/', function () {
 });
 
 
-Route::get('bynior/{id}', 'AccountController@checkIn');
+Route::get('5fe57832fa2da80dc3543a3e893e589d/{id}', 'AccountController@checkIn');
 
 Route::get('random', 'AccountController@random');
