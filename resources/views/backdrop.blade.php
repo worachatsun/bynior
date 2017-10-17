@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Random</title>
+    <title>Random Bynior IT #19</title>
     <style media="screen">
 
 *{
@@ -296,7 +296,7 @@
     });
 
     var pText = new WordShuffler(text,{
-    textColor : '#fff',
+    textColor : '#ddd',
     timeOffset : 2
     });
 
@@ -326,7 +326,7 @@
 
 var canvasDiv = document.getElementById('particle-canvas');
 var options = {
-particleColor: '#888',
+particleColor: '#555',
 background: 'https://raw.githubusercontent.com/JulianLaval/canvas-particle-network/master/img/demo-bg.jpg',
 interactive: true,
 speed: 'medium',
